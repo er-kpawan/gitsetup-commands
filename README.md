@@ -54,6 +54,22 @@ To check your local modifications
  9. git revert 42cbda16b59(commit number) and then git push
  To revert to a commit.
  
+ 10. git branch <name_of_your_new_branch>
+  To create a branch in local and if we want to push this to remote server then 
+   10.1 git push origin <name_of_your_new_branch>
+   
+  11. git push origin :<name_of_your_branch>
+   To delete a branch
+  
+ 12. git checkout -b <your_new_branch_name> <your_origin_branch>
+ To create a branch from another branch and points to the newly created branch
+  12.1  git push origin <your_new_branch_name>
+  To push your new branch to remote server
+  
+  13. git branch -D [name_of_your_new_branch]
+    To forcefully delete your local branch
+    
+    
    
 -------------------------------------------------------
 ## Updating local branch with master/develop branch
