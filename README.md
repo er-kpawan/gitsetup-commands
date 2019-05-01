@@ -25,55 +25,55 @@ Now , you should be good with your git bash set up and ssh authentication.
 We should be good with git clone and using windows shell interface to git.
 
 #### Useful command for CLI
-1. git clone <your master/develop branch ssh/http url ex: git@github.com:er-kpawan/gitsetup-commands.git>
-To clone your remote master branch to your local system
+1. git clone <your master/develop branch ssh/http url ex: git@github.com:er-kpawan/gitsetup-commands.git>  
+  To clone your remote master branch to your local system
 
 
-2. git checkout feature/your-local-branch
+2. git checkout feature/your-local-branch  
 To switch to your branch
 
 
-3. git branch 
+3. git branch   
 To check which branch is your local branch currently pointing
 
-4. git status
+4. git status  
 To check your local modifications
 
-5. git add . or git add <file1 path> <file2 path>..
+5. git add . or git add <file1 path> <file2 path>..  
   To add files which are to be commited. git add . will add all files.
   
-6. git commit -m "your message"
+6. git commit -m "your message"  
   To commit the added files in your local branch
   
- 7. git push
+ 7. git push  
    To send the committed files to remote server
    
- 8. git push --force origin 42cbda16b59:feature/anybranch
+ 8. git push --force origin 42cbda16b59:feature/anybranch  
    This will revert to certain commit say 42cbda16b59
    
- 9. git revert 42cbda16b59(commit number) and then git push
+ 9. git revert 42cbda16b59(commit number) and then git push  
  To revert to a commit.
  
- 10. git branch <name_of_your_new_branch>
+ 10. git branch <name_of_your_new_branch>  
   To create a branch in local and if we want to push this to remote server then 
    10.1 git push origin <name_of_your_new_branch>
    
-  11. git push origin :<name_of_your_branch>
+  11. git push origin :<name_of_your_branch>  
    To delete a branch
   
- 12. git checkout -b <your_new_branch_name> <your_origin_branch>
+ 12. git checkout -b <your_new_branch_name> <your_origin_branch>  
  To create a branch from another branch and points to the newly created branch
-  12.1  git push origin <your_new_branch_name>
+  12.1  git push origin <your_new_branch_name>  
   To push your new branch to remote server
   
-  13. git branch -D [name_of_your_new_branch]
+  13. git branch -D [name_of_your_new_branch]  
     To forcefully delete your local branch
     
     
    
 -------------------------------------------------------
 ## Updating local branch with master/develop branch
- If you are pointing to your local branch
+ If you are pointing to your local branch  
  
  1. git pull origin develop/master
  2. git push
